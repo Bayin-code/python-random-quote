@@ -1,0 +1,15 @@
+import time
+import urllib.request
+import urllib.error
+import webbrowser
+
+time.sleep(10) # wait for 10 secondes
+# open the link in webbrowser
+url = ('https://www.youtube.com/watch?v=OL6k-hRRIvQ')
+webbrowser.open(url) # open the url
+
+# Add a loop to repeat.
+while time:
+   time.sleep(10)
+   print("Break for ten seconds")
+   webbrowser.open(url)
